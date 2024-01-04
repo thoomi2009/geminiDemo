@@ -18,7 +18,6 @@ type config struct {
 
 var (
 	cfg          config
-	apiKey       string = "AIzaSyDPK5cXkPgcFWde5M9ZkevDSeNbHMveyVQ"
 	genaiContent context.Context
 	genaiClient  *genai.Client
 	genaiErr     error
